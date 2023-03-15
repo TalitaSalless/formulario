@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 800px;
+}
+.conteudo-principal {
+  width: 800px;
+  height: 402px;
+  background-image: url(../img/bg-repeat.jpg);
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.texto {
+  width: 50%;
+}
+.texto h1 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 23px;
+  text-align: left;
+  margin-bottom: 11px;
+}
+.texto p {
+  max-width: 300px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+form {
+  width: 340px;
+  height: 378px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+input {
+  box-sizing: border-box;
+  padding: 5px;
+  width: 298.01px;
+  height: 35.11px;
+  font-size: 15px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-bottom: 11px;
+}
+textarea {
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 15px;
+  font-family: inherit;
+  width: 298.01px;
+  height: 100px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-bottom: 11px;
+}
+button {
+  border: none;
+  background: #3ccc87;
+  border-radius: 5px;
+  font-weight: 700;
+  color: #ffffff;
+  width: 298.01px;
+  height: 41.13px;
+  margin-top: 11px;
+}
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+span {
+  font-weight: 400;
+  color: #f52e2e;
+  font-size: 10px;
+  margin: -10px 0 10px 0;
+  display: none;
+}
+.campo-preenchido {
+  border: 2px solid #00c22b;
+}
+.campo-vazio {
+  border: 2px solid #f52e2e;
+}

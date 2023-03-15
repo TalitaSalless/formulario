@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMULÁRIO</title>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  
+  <body>
+    <main class="conteudo-principal">
+      <div class="texto">
+        <h1>FICOU COM DÚVIDA?<br />NOS MANDE UMA MENSAGEM!</h1>
+        <p>
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </div>
+
+      <div class="formulario">
+        <form>
+          <input
+            class="campoDoFormulario"
+            type="text"
+            placeholder="Nome completo*"
+          />
+          <span id="mensagem-erro">O campo não foi preenchido</span>
+
+          <input class="campoDoFormulario" type="email" placeholder="Email*" />
+          <span id="mensagem-erro">O campo não foi preenchido</span>
+
+          <input class="campoDoFormulario" type="tel" placeholder="Telefone*" />
+          <span id="mensagem-erro">O campo não foi preenchido</span>
+
+          <textarea
+            class="campoDoFormulario"
+            placeholder="Mensagem*"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <span id="mensagem-erro">O campo não foi preenchido</span>
+
+          <button type="submit" id="btnEnviar">Enviar</button>
+        </form>
+      </div>
+    </main>
+
+    <script src="./js/form.js"></script>
+  </body>
+</html>
